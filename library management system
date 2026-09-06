@@ -23,7 +23,6 @@ public:
 
     void display()
     {
-        cout << "------BOOK DETAILS------" << endl;
         cout << "Book ID: " << bookid << endl;
         cout << "Book Name: " << book_name << "\n";
         cout << "Book Price: " << price;
