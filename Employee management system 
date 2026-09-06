@@ -1,0 +1,46 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Employee
+{
+public:
+    int employeeID;
+    string name;
+    string team;
+    float package;
+
+    void input()
+    {
+        cout << "Enter Employee ID: ";
+        cin >> employeeID;
+
+        cout << "Enter Employee Name: ";
+        cin >> name;
+
+        cout << "Enter Team: ";
+        cin >> team;
+
+        cout << "Enter Package: ";
+        cin >> package;
+    }
+
+    void display()
+    {
+        cout << "\nEmployee Details" << endl;
+        cout << "Employee ID: " << employeeID << endl;
+        cout << "Employee Name: " << name << endl;
+        cout << "Team: " << team << endl;
+        cout << "Package: " << package << endl;
+    }
+};
+
+int main()
+{
+    Employee e1;
+
+    e1.input();
+    e1.display();
+
+    return 0;
+}
