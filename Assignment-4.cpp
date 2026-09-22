@@ -1,4 +1,4 @@
-#include <iostream>
+ #include <iostream>
 using namespace std;
 
 class Book {
@@ -8,9 +8,9 @@ class Book {
 
 public:
     Book() {
-        bookCode = 0;
-        bookAuthor = "Unknown";
-        bookPrice = 5.0;
+        bookCode = 76;
+        bookAuthor = "H.C VERMA";
+        bookPrice = 750.0;
     }
 
     Book(int code, string author, float price) {
@@ -29,7 +29,7 @@ public:
 int main() {
     Book b1;
 
-    Book b2(101, "R.K. Narayan", 250.5);
+    Book b2(101, "R.K. Narayan", 250.0);
 
     cout << "Book 1:" << endl;
     b1.display();
@@ -39,4 +39,3 @@ int main() {
 
     return 0;
 }
-
